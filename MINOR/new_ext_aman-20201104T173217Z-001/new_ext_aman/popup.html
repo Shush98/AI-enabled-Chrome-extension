@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+        <script src="jquery-3.1.0.min.js">
+        </script>
+        <!-- <script src="AAA.js">
+        </script> -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <style type="text/css">
+
+    	#inneriframe
+    	{
+    		font-family: Tahoma;
+    		font-weight: bold;
+    		color: white;
+    		margin-right: 4vw;
+    		margin-left: 4vw;
+
+    	}
+
+    	#bodyy
+    	{	
+    		/*margin-top: 1vw;*/
+    		/*background-color: #ffb432;*/
+
+    		margin-bottom: 3.5vw;
+    		margin-right: 3.5vw;
+    		margin-left: 3.5vw;
+    	}
+
+    	#list
+    	{
+    		background-color: #F4D437;
+    		border-radius: 25px;
+    		border: 2.5px #ffbc48 solid;
+    		/*border-right: 0;
+    		border-top: 0;*/
+/*    		margin-right: 3.5vw;
+    		margin-left: 3.5vw;*/
+    	}
+
+    	#image
+    	{
+    		width: 40vw;
+    		height: 40vw;
+    		margin-left: 25vw;
+    		margin-right: 25vw;
+    	}
+
+    	.apple
+    	{
+
+    		background-color: white;
+    		/*width: 50;
+    		height: 300;*/
+    		border-radius: 5px;
+    		/*border-color: #f5a638;*/
+    		border: 2px #ffb820/*black*/ solid;
+    		/*border-top: 0;
+    		border-left: 0;
+    		border-right: 0;*/
+    		align-content: center;
+    		font-family: Tahoma;
+    		size: 44;
+
+    	}
+
+    </style>
+
+<!--     <script type="text/javascript">
+    	document.getElementById("inneriframe").contentDocument.body.style.fontfamily = "Tahoma";
+    </script> -->
+
+    <body id="bodyy">
+
+    	 <br>
+
+	  	 <img id="image" src="Asset02-loop.gif"></img>
+
+	  	 <br><br>
+
+      <div id="list">
+
+
+	  <p id="inneriframe">
+
+	  	 <br><br>
+	  	 The Customer rating is:<br><br><iframe class="apple" src="cust_rate.txt" frameborder="0" height="40"
+	      width="250"></iframe>
+	      <br><br><br>
+	     Model generated rating is:<br><br><iframe class="apple" src="rev_rate.txt" frameborder="0" height="40"
+	          width="250"></iframe>
+	      <br><br><br>
+	     Percentage of delivery issues:<br><br><iframe class="apple" src="deli.txt" frameborder="0" height="40"
+	              width="250"></iframe>
+	      <br><br><br><br>
+	  </p>
+</div>
+        <!-- <h2 id="greet">Hey</h2>
+        <input type="submit" id="rate" value="GetRating"> -->
+
+    </body>
+</html>
